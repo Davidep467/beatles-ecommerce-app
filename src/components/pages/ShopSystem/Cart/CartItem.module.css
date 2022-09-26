@@ -1,0 +1,10 @@
+.cartitemcont {
+    float: left;
+    margin-left: 40px;
+    margin-bottom:40px;
+}
+.carttitle {
+    word-wrap: break-word;
+    max-width: 200px;
+    height:30px;
+}

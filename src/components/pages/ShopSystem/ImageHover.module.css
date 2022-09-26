@@ -1,0 +1,126 @@
+.hovercont {
+  width: 700px;
+  height: 500px;
+  margin-left: 2rem;
+  background-color: #589ba4;
+  text-align: center;
+  display: flex;
+  color: white;
+  border: solid 5px #24454c;
+}
+
+.imageitem {
+  width: 350px;
+  height: 350px;
+  margin: 2rem;
+  margin-bottom: 0rem;
+  float: left;
+  cursor: pointer;
+}
+
+.descr {
+  font-size: 0.8rem;
+  text-align: left;
+
+  margin-left: -15px;
+  padding-top: 30px;
+  padding-right: 30px;
+  margin-top: 2rem;
+}
+
+.ytbut {
+  float: left;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 25%;
+  background-color: red;
+  color: white;
+  margin-top: 1rem;
+}
+
+.butcont {
+  margin-top: 0px;
+}
+
+.buttongall {
+  background-color: #24454c;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+.butoneclass {
+  color: #589ba4;
+  background-color: white;
+}
+.buttwoclass {
+  color: #589ba4;
+  background-color: white;
+}
+.butthreeclass {
+  color: #589ba4;
+  background-color: white;
+}
+
+/* modal */
+
+.modalcont {
+  background-color: #24454c;
+  opacity: 1;
+  position: fixed;
+  text-align: center;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.enlargedimageitem {
+  height: 100%;
+  margin-left: 10%;
+}
+
+.xbut {
+  text-align: right;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.xbut:hover {
+  /* color: grey; */
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (min-device-width: 1900px) {
+  .hovercont {
+    margin-left: 4rem;
+    width: 1000px;
+    height: 700px;
+  }
+  .imageitem {
+    width: 550px;
+    height: 550px;
+    margin: 2rem;
+    margin-bottom: 0rem;
+    float: left;
+  }
+
+  .ytbut {
+    margin-left: 32%;
+  }
+  .descr {
+    font-size: 1.3rem;
+  }
+
+  .enlargedimageitem {
+    width: 57%;
+  }
+}

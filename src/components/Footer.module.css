@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #589ba4;
+  padding: 0 10%;
+  color: #24454c;
+
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  margin-left: 3rem;
+  color: #24454c;
+}
+.logoimg {
+  margin-left: 20px;
+  width: 120px;
+}
+
+@media only screen and (max-device-width: 1200px) {
+  .footer li {
+    font-size: 0.8rem;
+  }
+}

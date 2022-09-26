@@ -1,0 +1,51 @@
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+
+  transition: opacity 500ms;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+
+  transition: opacity 500ms;
+}
+
+.hover-enter {
+  opacity: 1;
+}
+.hover-enter-active {
+  opacity: 1;
+
+  transition: transform 300ms;
+}
+.hover-exit {
+  opacity: 1;
+}
+.hover-exit-active {
+  opacity: 1;
+
+  transition: transform 300ms;
+}

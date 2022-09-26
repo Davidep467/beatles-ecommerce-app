@@ -1,0 +1,10 @@
+.listitem {
+    text-decoration: none;
+    color: #24454c;  
+}
+.titleitem {
+    word-wrap: break-word;
+    max-width: 150px;
+    margin-top:4px;
+    margin-bottom:4px;
+}

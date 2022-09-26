@@ -1,0 +1,8 @@
+.quantityform select{
+  font-family: inherit;
+ width: 50px;
+ text-align: center;
+ height: 2rem;
+ margin-left: 10px;
+ border-radius: 50px;
+}

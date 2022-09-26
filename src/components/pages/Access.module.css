@@ -1,0 +1,133 @@
+.input {
+  font-size: 12px;
+}
+.invalid {
+  border: 3px solid #589ba4;
+}
+
+.accessform {
+  height: 500px;
+  margin-top: 60px;
+  background-color: #589ba4;
+  color: white;
+  margin-left: 25%;
+  width: 50%;
+  padding-left: 9;
+  margin-bottom: 3rem;
+}
+.accessform h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+  padding-top: 4rem;
+}
+.accessform label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 15%;
+}
+.accessform input {
+  font: inherit;
+  background-color: white;
+  color: #24454c;
+  border-radius: 4px;
+  float: right;
+  width: 40%;
+  text-align: left;
+  padding: 0.25rem;
+  margin-right: 15%;
+}
+
+.accessform .one {
+  margin-top: 2rem;
+  width: 20%;
+  margin-left: 20%;
+  cursor: pointer;
+  font: inherit;
+  color: #24454c;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 0.5rem 2.5rem;
+}
+
+.one:disabled {
+  cursor: not-allowed !important;
+}
+.accessform .one:hover {
+  background-color: #24454c;
+  color: white;
+}
+.accessform .divbut {
+  display: flex;
+  width: 100%;
+}
+.accessform .two {
+  width: 35%;
+  margin-top: 2rem;
+  margin-left: 5%;
+  margin-right: 20%;
+  float: right;
+  cursor: pointer;
+  font: inherit;
+  color: #24454c;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+}
+
+.accessform .two:hover {
+  background-color: #24454c;
+  color: white;
+}
+
+.accessform .load {
+  margin-right: 50%;
+}
+.passval {
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.credentials {
+  text-align:center;
+}
+
+@media only screen and (max-device-width: 1200px) {
+
+  .accessform {
+    height: 500px;
+    
+    margin-left: 1%;
+    width: 98%;
+    padding-left: 9;
+  }
+  .accessform h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .accessform label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 3%;
+    float: left;
+    width:90%;
+    text-align:left;
+    padding-bottom:5px;
+  }
+  .accessform input {
+
+    float: none;
+    width: 90%;
+    text-align: left;
+    padding-bottom:5px;
+    margin-right: 1%;
+  }
+  .accessform .one {
+    padding: 0;
+  }
+}

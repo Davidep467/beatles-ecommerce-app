@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.containerbis {
+  height: 800px;
+  padding-left: 50%;
+}
+
+.list {
+  float: right;
+  margin-left: 12rem;
+}
+
+.gototopbut {
+  text-align: center;
+  position: fixed;
+  bottom: 12rem;
+  right: 2rem;
+  font-size: 18pt;
+  padding: 20px;
+}
+.albummenu {
+  position: fixed;
+}
+
+@media only screen and (min-device-width: 1900px) {
+  .container {
+    display: flex;
+  }
+
+  .containerbis {
+    height: 900px;
+  }
+}
+
+@media only screen and (max-device-width: 1200px) {
+  .albummenu {
+ display:none;
+} 
+
+.list {
+  /* float: right; */
+  margin-left: 1rem;
+}
+.gototopbut {
+  text-align: center;
+  position: fixed;
+  bottom: 12rem;
+  left: 1rem;
+  width:3rem;
+  font-size: 18pt;
+  padding: 5px;
+}
+}
