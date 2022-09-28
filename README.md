@@ -1,5 +1,6 @@
 # beatles-ecommerce-app
 <ins>Description:</ins>
+
 Full Stack e-commerce platform. Users can register an account and sign in.
 The sign-in/up form can check password validity and the login button is disabled until a valid password is entered.
 
@@ -7,8 +8,6 @@ All albums data are hosted on the Firebase Realtime Database server, retrieved f
 
 When an order is submitted it gets registered on the server.
 NOTE: The app is still unfinished and will be completed with a "Favorites" page and more back-end features.
-
-<ins>Demo Link:</ins> http://beatles-app.s3-website.eu-central-1.amazonaws.com/
 
 <ins>Used technologies:</ins>
 - React Router v5
@@ -19,3 +18,5 @@ NOTE: The app is still unfinished and will be completed with a "Favorites" page 
 - Mobile optimization with media queries
 - CSS Transition Group for animations
 - React Hashlink
+
+<ins>Demo Link:</ins> http://beatles-app.s3-website.eu-central-1.amazonaws.com/
