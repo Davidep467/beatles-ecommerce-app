@@ -1,4 +1,4 @@
-//import ChangePass from "./ChangePass";
+
 import classes from "./Dashboard.module.css";
 import dash from '../../assets/dash.jpg';
 
@@ -12,8 +12,6 @@ const Dashboard = () => {
          
           </div>
 
-          {/* <h1 className={classes.h2}> Do you need to change your password? You can do it here! </h1>
-      <ChangePass /> */}
       <img src={dash}  alt="" width="100%" />
     </section>
   );
