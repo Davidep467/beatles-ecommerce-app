@@ -15,7 +15,7 @@ When an order is submitted it gets registered on the server.
 - React Router v5
 - Firebase Authentication
 - Firebase Realtime Database
-- Firebase Firestore
+- Firebase Storage
 - CSS Modules for styling
 - Mobile optimization with media queries
 - CSS Transition Group for animations
