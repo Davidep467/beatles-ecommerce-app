@@ -30,10 +30,10 @@ const Access = () => {
     let url;
     if (Access) {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBSS9k-MMZ9VN_OFtR1VoYi1QcGChcR3ms";
+        "https://identitytoolkit.googleapis.com/";
     } else {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBSS9k-MMZ9VN_OFtR1VoYi1QcGChcR3ms";
+        "https://identitytoolkit.googleapis.com/";
     }
     fetch(url, {
       method: "POST",
